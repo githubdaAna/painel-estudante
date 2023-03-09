@@ -11,8 +11,17 @@ const viewSubject = (req, res) => {
 
 }
 
+const deleteSubject = (req, res) => {
+
+}
+
+const updateSubject = (req, res) => {
+
+}
 
 module.exports = {
     addSubject,
-    viewSubject
+    viewSubject,
+    deleteSubject,
+    updateSubject
 }
