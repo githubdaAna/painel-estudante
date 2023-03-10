@@ -1,0 +1,18 @@
+.page-background-color {
+    background-color: #212121;
+}
+
+.elements-background-color {
+    background-color: #F8D270;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

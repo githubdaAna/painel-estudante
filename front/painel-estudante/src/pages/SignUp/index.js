@@ -2,8 +2,8 @@ import './styles.css';
 
 const SignUp = () => {
     return (
-        <div>
-            SignUp
+        <div className='signup-page'>
+            
         </div>
     )
 }
