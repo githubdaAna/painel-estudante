@@ -1,0 +1,39 @@
+.form-container {
+    width: 30%;
+    height: 60%;
+    border-radius: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-content {
+    width: 80%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.form-content input {
+    border: none;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #212121;
+    color: #ffffff;
+}
+
+
+.form-content input:focus {
+    border: none;
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.form-content ::placeholder {
+    color: #ffffff;
+}
+
+a {
+    color: #212121;
+    font-weight: bold;
+}
