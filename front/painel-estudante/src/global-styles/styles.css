@@ -1,3 +1,12 @@
+* {
+    font-family: 'Sono', sans-serif;
+}
+
+.full-screen {
+    width: 100vw;
+    height: 100vh;
+}
+
 .page-background-color {
     background-color: #212121;
 }
