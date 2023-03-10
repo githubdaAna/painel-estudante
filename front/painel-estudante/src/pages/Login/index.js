@@ -2,7 +2,7 @@ import './styles.css';
 
 const Login = () => {
     return (
-        <div>
+        <div className='login-page'>
             Login
         </div>
     )
