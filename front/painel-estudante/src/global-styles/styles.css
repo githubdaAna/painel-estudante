@@ -8,16 +8,20 @@
 }
 
 .page-background-color {
-    background-color: #212121;
+    background-color: #ffffff;
 }
 
 .elements-background-color {
-    background-color: #F8D270;
+    background-image: linear-gradient(to right, rgba(210,114,255, 0.6), rgba(113,127,255, 0.6), rgba(140,255,255, 0.6), rgba(111,255, 168, 0.6), rgba(248, 243,122,0.6), rgba(255, 160, 107, 0.6), rgba(255, 96, 153, 0.6)) ;
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
 }
 
 .flex-center {

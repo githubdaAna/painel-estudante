@@ -16,8 +16,8 @@ const routes = () => {
         <Routes>
             <Route path='/' element={<Login />} />
             <Route path='/sign-up' element={<SignUp />} />
-            <Route element={<PrivateRoutes redirectTo={'/'} />}>
                 <Route path='/main' element={<Main />} />
+            <Route element={<PrivateRoutes redirectTo={'/'} />}>
             </Route>
         </Routes>
     )
